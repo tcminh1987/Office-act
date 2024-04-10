@@ -21,6 +21,30 @@ Kích hoạt Office 2010, 2013, 2016, 2019, 2021, Office 365 Mondo, Office 365 E
 - Tôi vẫn thích dùng Office 365 hơn vì nó chỉ add tài khoản Office 365 A1+, E3, E5 là active ngon lành cành đào, nhập một lúc vài chục tài khoản luôn cho thể hiện đẳng cấp 
 - ![image](https://user-images.githubusercontent.com/82578024/231724418-cce14eb7-1c9c-468e-9b25-4dc0cb5847b4.png)
 
+## INSTALL GIẤY PHÉP:
+
+- Install giấy phép Office 2021 nếu trong quá trình cài đặt báo lỗi không tìm thấy office.
+    - Step 1.1: First, you need to open command prompt with admin rights, then follow the instruction below step by step. Just copy/paste the commands and do not forget to hit Enter in order to execute them
+    - Step 1.2: Open location of the Office installed on your PC.
+
+      ```php
+      cd /d %ProgramFiles%\Microsoft Office\Office16
+      cd /d %ProgramFiles(x86)%\Microsoft Office\Office16
+      ```
+
+    - Step 1.3: Convert your retail license to volume one.
+    - Nếu:
+      - Project 2016:
+        
+      ```php
+      cscript ospp.vbs /inslic:"..\root\Licenses16\ProjectProVL_KMS_Client-ppd.xrm-ms"&cscript ospp.vbs /inslic:"..\root\Licenses16\ProjectProVL_KMS_Client-ul-oob.xrm-ms"&cscript ospp.vbs /inslic:"..\root\Licenses16\ProjectProVL_KMS_Client-ul.xrm-ms"&cscript ospp.vbs /inslic:"..\root\Licenses16\client-issuance-bridge-office.xrm-ms"&cscript ospp.vbs /inslic:"..\root\Licenses16\client-issuance-root.xrm-ms"&cscript ospp.vbs /inslic:"..\root\Licenses16\client-issuance-root-bridge-test.xrm-ms"&cscript ospp.vbs /inslic:"..\root\Licenses16\client-issuance-stil.xrm-ms"&cscript ospp.vbs /inslic:"..\root\Licenses16\client-issuance-ul.xrm-ms"&cscript ospp.vbs /inslic:"..\root\Licenses16\client-issuance-ul-oob.xrm-ms"&cscript ospp.vbs /inslic:"..\root\Licenses16\pkeyconfig-office.xrm-ms"
+      ```
+    
+      - Project 2019:
+     
+      ```php
+      cscript ospp.vbs /inslic:"..\root\Licenses16\pkeyconfig-office.xrm-ms"&(for /f %x in ('dir /b ..\root\Licenses16\client-issuance*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%x")&(for /f %x in ('dir /b ..\root\Licenses16\projectprovl_kms*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%x")&(for /f %x in ('dir /b ..\root\Licenses16\projectpro2019vl_kms*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%x")
+
 ## KÍCH HOẠT OFFICE ##
 # Office 365 Enterprise #
   - https://github.com/BsNgChiThanh/Office365Enterprise
@@ -118,6 +142,7 @@ Kích hoạt Office 2010, 2013, 2016, 2019, 2021, Office 365 Mondo, Office 365 E
   - Dùng KMS VL ALL AIO để kích hoạt: https://github.com/BsNgChiThanh/KMS_VL_ALL_AIO
   - Dùng Activate AIO Tools kích hoạt: https://github.com/BsNgChiThanh/ActivateAIOTools
   - Dùng MAS TOOL để kích hoạt https://github.com/BsNgChiThanh/MAS-TOOL
+        
 ## Project 2016 ##
   - https://github.com/BsNgChiThanh/Cai-Project2016-va-kich-hoat
   - Download [Project 2016](https://officecdn.microsoft.com/db/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/media/en-us/ProjectProRetail.img)
