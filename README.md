@@ -23,7 +23,7 @@ Kích hoạt Office 2010, 2013, 2016, 2019, 2021, Office 365 Mondo, Office 365 E
 
 ## INSTALL GIẤY PHÉP:
 
-- Install giấy phép Office 2021 nếu trong quá trình cài đặt báo lỗi không tìm thấy office.
+- Install giấy phép Office nếu trong quá trình kích hoạt báo lỗi không tìm thấy office.
     - Step 1.1: First, you need to open command prompt with admin rights, then follow the instruction below step by step. Just copy/paste the commands and do not forget to hit Enter in order to execute them
     - Step 1.2: Open location of the Office installed on your PC.
 
@@ -44,6 +44,33 @@ Kích hoạt Office 2010, 2013, 2016, 2019, 2021, Office 365 Mondo, Office 365 E
      
       ```php
       cscript ospp.vbs /inslic:"..\root\Licenses16\pkeyconfig-office.xrm-ms"&(for /f %x in ('dir /b ..\root\Licenses16\client-issuance*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%x")&(for /f %x in ('dir /b ..\root\Licenses16\projectprovl_kms*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%x")&(for /f %x in ('dir /b ..\root\Licenses16\projectpro2019vl_kms*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%x")
+      ```
+
+      - Project 2021:
+     
+      ```pho
+      cscript ospp.vbs /inslic:"..\root\Licenses16\pkeyconfig-office.xrm-ms"&(for /f %x in ('dir /b ..\root\Licenses16\client-issuance*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%x")&(for /f %x in ('dir /b ..\root\Licenses16\projectprovl_kms*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%x")&(for /f %x in ('dir /b ..\root\Licenses16\projectpro2021vl_kms*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%x")
+      ```
+
+      - Visio 2016:
+     
+      ```php
+      cscript ospp.vbs /inslic:"..\root\Licenses16\VisioProVL_KMS_Client-ppd.xrm-ms" &cscript ospp.vbs /inslic:"..\root\Licenses16\VisioProVL_KMS_Client-ul-oob.xrm-ms"&cscript ospp.vbs /inslic:"..\root\Licenses16\VisioProVL_KMS_Client-ul.xrm-ms"&cscript ospp.vbs /inslic:"..\root\Licenses16\client-issuance-bridge-office.xrm-ms"&cscript ospp.vbs /inslic:"..\root\Licenses16\client-issuance-root.xrm-ms"&cscript ospp.vbs /inslic:"..\root\Licenses16\client-issuance-root-bridge-test.xrm-ms"&cscript ospp.vbs /inslic:"..\root\Licenses16\client-issuance-stil.xrm-ms"&cscript ospp.vbs /inslic:"..\root\Licenses16\client-issuance-ul.xrm-ms"&cscript ospp.vbs /inslic:"..\root\Licenses16\client-issuance-ul-oob.xrm-ms"&cscript ospp.vbs /inslic:"..\root\Licenses16\pkeyconfig-office.xrm-ms"
+      ```
+      
+      - Visio 2019:
+     
+      ```php
+      cscript ospp.vbs /inslic:"..\root\Licenses16\pkeyconfig-office.xrm-ms"&(for /f %x in ('dir /b ..\root\Licenses16\client-issuance*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%x")&(for /f %x in ('dir /b ..\root\Licenses16\visioprovl_kms*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%x")&(for /f %x in ('dir /b ..\root\Licenses16\visiopro2019vl_kms*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%x")
+      ```
+      
+      - Visio 2021:
+     
+      ```php
+      cscript ospp.vbs /inslic:"..\root\Licenses16\pkeyconfig-office.xrm-ms"&(for /f %x in ('dir /b ..\root\Licenses16\client-issuance*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%x")&(for /f %x in ('dir /b ..\root\Licenses16\visioprovl_kms*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%x")&(for /f %x in ('dir /b ..\root\Licenses16\visiopro2021vl_kms*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%x")
+      ```
+      
+      - 
 
 ## KÍCH HOẠT OFFICE ##
 # Office 365 Enterprise #
@@ -64,23 +91,7 @@ Kích hoạt Office 2010, 2013, 2016, 2019, 2021, Office 365 Mondo, Office 365 E
   - Dùng KMS VL ALL AIO để kích hoạt: https://github.com/BsNgChiThanh/KMS_VL_ALL_AIO
   - Dùng Activate AIO Tools kích hoạt: https://github.com/BsNgChiThanh/ActivateAIOTools
   - Dùng MAS TOOL để kích hoạt https://github.com/BsNgChiThanh/MAS-TOOL
-  - Install giấy phép Office 2021 nếu trong quá trình cài đặt báo lỗi không tìm thấy office.
-    - Step 1.1: Open cmd program with administrator rights. First, you need to open cmd in the admin mode, then run all commands below one by one.
-    - Step 1.2: Get into the Office directory in cmd.
-      
-      ```php
-      cd /d %ProgramFiles(x86)%\Microsoft Office\Office16
-      cd /d %ProgramFiles%\Microsoft Office\Office16
-      ```
-      
-    - Step 1.3: Install Office 2021 volume license
-    
-      ```php
-      for /f %x in ('dir /b ..\root\Licenses16\ProPlus2021VL_KMS*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%x"
-      ```
-    
-    - Rồi sau đó làm lại qui trình active lại từ đầu bằng các giải pháp trên.
-
+  
 ## Project 2021 ##
   - https://github.com/BsNgChiThanh/Cai-project-pro2021-va-kich-hoat
   - Download projectPro 2021 [tại đây](https://officecdn.microsoft.com/db/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/media/en-us/ProjectPro2021Retail.img)
@@ -103,23 +114,7 @@ Kích hoạt Office 2010, 2013, 2016, 2019, 2021, Office 365 Mondo, Office 365 E
   - Dùng KMS VL ALL AIO để kích hoạt: https://github.com/BsNgChiThanh/KMS_VL_ALL_AIO
   - Dùng Activate AIO Tools kích hoạt: https://github.com/BsNgChiThanh/ActivateAIOTools
   - Dùng MAS TOOL để kích hoạt https://github.com/BsNgChiThanh/MAS-TOOL
-  - Install giấy phép Office 2021 nếu trong quá trình cài đặt báo lỗi không tìm thấy office.
-    - Step 1.1: First, you need to open command prompt with admin rights, then follow the instruction below step by step. Just copy/paste the commands and do not forget to hit Enter in order to execute them
-    - Step 1.2: Open location of the Office installed on your PC.
-
-      ```php
-      cd /d %ProgramFiles%\Microsoft Office\Office16
-      cd /d %ProgramFiles(x86)%\Microsoft Office\Office16
-      ```
-
-    - Step 1.3: Convert your retail license to volume one.
-
-      ```php
-      for /f %x in ('dir /b ..\root\Licenses16\ProPlus2019VL*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%x"
-      ```
-
-    - Rồi sau đó làm lại qui trình active lại từ đầu bằng các giải pháp trên.
-      
+        
 ## Project 2019 ##
   - https://github.com/BsNgChiThanh/Cai-Project2019-va-kich-hoat
   - Source code: https://github.com/BsNgChiThanh/Kich-hoat-Office/blob/KichHoatOffice/Project2019.txt
