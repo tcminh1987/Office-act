@@ -73,7 +73,7 @@ Kích hoạt Office 2010, 2013, 2016, 2019, 2021, Office 365 Mondo, Office 365 E
       - Prolus 2016:
      
       ```php
-      
+      for /f %x in ('dir /b ..\root\Licenses16\proplusvl_kms*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%x
       ```
       
       - Prolus 2019:
