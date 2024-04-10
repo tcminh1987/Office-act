@@ -26,11 +26,17 @@ Kích hoạt Office 2010, 2013, 2016, 2019, 2021, Office 365 Mondo, Office 365 E
 - Install giấy phép Office nếu trong quá trình kích hoạt báo lỗi không tìm thấy office.
     - Step 1.1: First, you need to open command prompt with admin rights, then follow the instruction below step by step. Just copy/paste the commands and do not forget to hit Enter in order to execute them
     - Step 1.2: Open location of the Office installed on your PC.
+      - Nếu Win32Bit chọn:
+      
+        ```php
+        cd /d %ProgramFiles%\Microsoft Office\Office16
+        ```
 
-      ```php
-      cd /d %ProgramFiles%\Microsoft Office\Office16
-      cd /d %ProgramFiles(x86)%\Microsoft Office\Office16
-      ```
+      - Nếu Win 64Bit chọn:
+
+          ```php
+          cd /d %ProgramFiles(x86)%\Microsoft Office\Office16      
+          ```
 
     - Step 1.3: Convert your retail license to volume one.
     - Nếu:
