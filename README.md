@@ -70,8 +70,24 @@ Kích hoạt Office 2010, 2013, 2016, 2019, 2021, Office 365 Mondo, Office 365 E
       cscript ospp.vbs /inslic:"..\root\Licenses16\pkeyconfig-office.xrm-ms"&(for /f %x in ('dir /b ..\root\Licenses16\client-issuance*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%x")&(for /f %x in ('dir /b ..\root\Licenses16\visioprovl_kms*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%x")&(for /f %x in ('dir /b ..\root\Licenses16\visiopro2021vl_kms*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%x")
       ```
       
-      - 
-
+      - Prolus 2016:
+     
+      ```php
+      
+      ```
+      
+      - Prolus 2019:
+     
+      ```php
+      
+      ```
+      
+      - Prolus 2021:
+     
+      ```php
+      
+      ```
+ 
 ## KÍCH HOẠT OFFICE ##
 # Office 365 Enterprise #
   - https://github.com/BsNgChiThanh/Office365Enterprise
