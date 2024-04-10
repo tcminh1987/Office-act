@@ -79,6 +79,23 @@ Kích hoạt Office 2010, 2013, 2016, 2019, 2021, Office 365 Mondo, Office 365 E
   - Dùng KMS VL ALL AIO để kích hoạt: https://github.com/BsNgChiThanh/KMS_VL_ALL_AIO
   - Dùng Activate AIO Tools kích hoạt: https://github.com/BsNgChiThanh/ActivateAIOTools
   - Dùng MAS TOOL để kích hoạt https://github.com/BsNgChiThanh/MAS-TOOL
+  - Install giấy phép Office 2021 nếu trong quá trình cài đặt báo lỗi không tìm thấy office.
+    - Step 1.1: First, you need to open command prompt with admin rights, then follow the instruction below step by step. Just copy/paste the commands and do not forget to hit Enter in order to execute them
+    - Step 1.2: Open location of the Office installed on your PC.
+
+      ```php
+      cd /d %ProgramFiles%\Microsoft Office\Office16
+      cd /d %ProgramFiles(x86)%\Microsoft Office\Office16
+      ```
+
+    - Step 1.3: Convert your retail license to volume one.
+
+      ```php
+      for /f %x in ('dir /b ..\root\Licenses16\ProPlus2019VL*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%x"
+      ```
+
+    - Rồi sau đó làm lại qui trình active lại từ đầu bằng các giải pháp trên.
+      
 ## Project 2019 ##
   - https://github.com/BsNgChiThanh/Cai-Project2019-va-kich-hoat
   - Source code: https://github.com/BsNgChiThanh/Kich-hoat-Office/blob/KichHoatOffice/Project2019.txt
