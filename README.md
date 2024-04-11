@@ -175,7 +175,7 @@ Kích hoạt Office 2010, 2013, 2016, 2019, 2021, Office 365 Mondo, Office 365 E
         cscript ospp.vbs /act
         ```
 
-## KÍCH HOẠT OFFICE VĨNH VIỄN ##
+# KÍCH HOẠT OFFICE VĨNH VIỄN #
 # Office 365 Enterprise #
   - https://github.com/BsNgChiThanh/Office365Enterprise
   - **Tham khảo thêm về office 365 E5 _ Office 365 Enterprise [bấm vào đây](https://github.com/BsNgChiThanh/Tao-office-365-E5-kich-hoat-Office-365-for-desktop)**
