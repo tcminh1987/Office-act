@@ -45,11 +45,29 @@ Kích hoạt Office 2010, 2013, 2016, 2019, 2021, Office 365 Mondo, Office 365 E
       ```php
       cscript ospp.vbs /inslic:"..\root\Licenses16\ProjectProVL_KMS_Client-ppd.xrm-ms"&cscript ospp.vbs /inslic:"..\root\Licenses16\ProjectProVL_KMS_Client-ul-oob.xrm-ms"&cscript ospp.vbs /inslic:"..\root\Licenses16\ProjectProVL_KMS_Client-ul.xrm-ms"&cscript ospp.vbs /inslic:"..\root\Licenses16\client-issuance-bridge-office.xrm-ms"&cscript ospp.vbs /inslic:"..\root\Licenses16\client-issuance-root.xrm-ms"&cscript ospp.vbs /inslic:"..\root\Licenses16\client-issuance-root-bridge-test.xrm-ms"&cscript ospp.vbs /inslic:"..\root\Licenses16\client-issuance-stil.xrm-ms"&cscript ospp.vbs /inslic:"..\root\Licenses16\client-issuance-ul.xrm-ms"&cscript ospp.vbs /inslic:"..\root\Licenses16\client-issuance-ul-oob.xrm-ms"&cscript ospp.vbs /inslic:"..\root\Licenses16\pkeyconfig-office.xrm-ms"
       ```
+ 
+      - Active kỹ thuật số 180 ngày:
+     
+      ```php
+      cscript ospp.vbs /inpkey:YG9NW-3K39V-2T3HJ-93F3Q-G83KT
+      cscript ospp.vbs /sethst:107.175.77.7
+      cscript ospp.vbs /setprt:1688
+      cscript ospp.vbs /act
+      ```
     
       - Project 2019:
      
       ```php
       cscript ospp.vbs /inslic:"..\root\Licenses16\pkeyconfig-office.xrm-ms"&(for /f %x in ('dir /b ..\root\Licenses16\client-issuance*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%x")&(for /f %x in ('dir /b ..\root\Licenses16\projectprovl_kms*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%x")&(for /f %x in ('dir /b ..\root\Licenses16\projectpro2019vl_kms*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%x")
+      ```
+
+      - Active kỹ thuật số 180 ngày:
+     
+      ```php
+      cscript ospp.vbs /inpkey:B4NPR-3FKK7-T2MBV-FRQ4W-PKD2B
+      cscript ospp.vbs /sethst:107.175.77.7
+      cscript ospp.vbs /setprt:1688
+      cscript ospp.vbs /act
       ```
 
       - Project 2021:
@@ -58,42 +76,105 @@ Kích hoạt Office 2010, 2013, 2016, 2019, 2021, Office 365 Mondo, Office 365 E
       cscript ospp.vbs /inslic:"..\root\Licenses16\pkeyconfig-office.xrm-ms"&(for /f %x in ('dir /b ..\root\Licenses16\client-issuance*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%x")&(for /f %x in ('dir /b ..\root\Licenses16\projectprovl_kms*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%x")&(for /f %x in ('dir /b ..\root\Licenses16\projectpro2021vl_kms*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%x")
       ```
 
+      - Active kỹ thuật số 180 ngày:
+     
+      ```php
+      cscript ospp.vbs /inpkey:FTNWT-C6WBT-8HMGF-K9PRX-QV9H8
+      cscript ospp.vbs /sethst:107.175.77.7
+      cscript ospp.vbs /setprt:1688
+      cscript ospp.vbs /act
+      ```
+
       - Visio 2016:
      
       ```php
       cscript ospp.vbs /inslic:"..\root\Licenses16\VisioProVL_KMS_Client-ppd.xrm-ms" &cscript ospp.vbs /inslic:"..\root\Licenses16\VisioProVL_KMS_Client-ul-oob.xrm-ms"&cscript ospp.vbs /inslic:"..\root\Licenses16\VisioProVL_KMS_Client-ul.xrm-ms"&cscript ospp.vbs /inslic:"..\root\Licenses16\client-issuance-bridge-office.xrm-ms"&cscript ospp.vbs /inslic:"..\root\Licenses16\client-issuance-root.xrm-ms"&cscript ospp.vbs /inslic:"..\root\Licenses16\client-issuance-root-bridge-test.xrm-ms"&cscript ospp.vbs /inslic:"..\root\Licenses16\client-issuance-stil.xrm-ms"&cscript ospp.vbs /inslic:"..\root\Licenses16\client-issuance-ul.xrm-ms"&cscript ospp.vbs /inslic:"..\root\Licenses16\client-issuance-ul-oob.xrm-ms"&cscript ospp.vbs /inslic:"..\root\Licenses16\pkeyconfig-office.xrm-ms"
       ```
-      
+
+      - Active kỹ thuật số 180 ngày:
+     
+      ```php
+      cscript ospp.vbs /inpkey:PD3PC-RHNGV-FXJ29-8JK7D-RJRJK
+      cscript ospp.vbs /sethst:107.175.77.7
+      cscript ospp.vbs /setprt:1688
+      cscript ospp.vbs /act
+      ```
+     
       - Visio 2019:
      
       ```php
       cscript ospp.vbs /inslic:"..\root\Licenses16\pkeyconfig-office.xrm-ms"&(for /f %x in ('dir /b ..\root\Licenses16\client-issuance*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%x")&(for /f %x in ('dir /b ..\root\Licenses16\visioprovl_kms*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%x")&(for /f %x in ('dir /b ..\root\Licenses16\visiopro2019vl_kms*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%x")
       ```
-      
+
+      - Active kỹ thuật số 180 ngày:
+     
+      ```php
+      cscript ospp.vbs /inpkey:9BGNQ-K37YR-RQHF2-38RQ3-7VCBB
+      cscript ospp.vbs /sethst:107.175.77.7
+      cscript ospp.vbs /setprt:1688
+      cscript ospp.vbs /act
+      ```
+
       - Visio 2021:
      
       ```php
       cscript ospp.vbs /inslic:"..\root\Licenses16\pkeyconfig-office.xrm-ms"&(for /f %x in ('dir /b ..\root\Licenses16\client-issuance*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%x")&(for /f %x in ('dir /b ..\root\Licenses16\visioprovl_kms*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%x")&(for /f %x in ('dir /b ..\root\Licenses16\visiopro2021vl_kms*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%x")
       ```
-      
+
+      - Active kỹ thuật số 180 ngày:
+     
+      ```php
+      cscript ospp.vbs /inpkey:KNH8D-FGHT4-T8RK3-CTDYJ-K2HT4
+      cscript ospp.vbs /sethst:107.175.77.7
+      cscript ospp.vbs /setprt:1688
+      cscript ospp.vbs /act
+      ```
+
       - Prolus 2016:
      
       ```php
       for /f %x in ('dir /b ..\root\Licenses16\proplusvl_kms*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%x
       ```
-      
+
+      - Active kỹ thuật số 180 ngày:
+     
+      ```php
+      cscript ospp.vbs /inpkey:XQNVK-8JYDB-WJ9W3-YJ8YR-WFG99
+      cscript ospp.vbs /sethst:107.175.77.7
+      cscript ospp.vbs /setprt:1688
+      cscript ospp.vbs /act
+      ```
+
       - Prolus 2019:
      
       ```php
       for /f %x in ('dir /b ..\root\Licenses16\ProPlus2019VL*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%x"
       ```
-      
+
+      - Active kỹ thuật số 180 ngày:
+     
+      ```php
+      cscript ospp.vbs /inpkey:NMMKJ-6RK4F-KMJVX-8D9MJ-6MWKP
+      cscript ospp.vbs /sethst:107.175.77.7
+      cscript ospp.vbs /setprt:1688
+      cscript ospp.vbs /act
+      ```
+
       - Prolus 2021:
      
       ```php
       for /f %x in ('dir /b ..\root\Licenses16\ProPlus2021VL_KMS*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%x"
       ```
- 
+
+      - Active kỹ thuật số 180 ngày:
+     
+      ```php
+      cscript ospp.vbs /inpkey:FXYTK-NJJ8C-GB6DW-3DYQT-6F7TH
+      cscript ospp.vbs /sethst:107.175.77.7
+      cscript ospp.vbs /setprt:1688
+      cscript ospp.vbs /act
+      ```
+
 ## KÍCH HOẠT OFFICE ##
 # Office 365 Enterprise #
   - https://github.com/BsNgChiThanh/Office365Enterprise
