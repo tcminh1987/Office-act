@@ -21,7 +21,7 @@ Kích hoạt Office 2010, 2013, 2016, 2019, 2021, Office 365 Mondo, Office 365 E
 - Tôi vẫn thích dùng Office 365 hơn vì nó chỉ add tài khoản Office 365 A1+, E3, E5 là active ngon lành cành đào, nhập một lúc vài chục tài khoản luôn cho thể hiện đẳng cấp 
 - ![image](https://user-images.githubusercontent.com/82578024/231724418-cce14eb7-1c9c-468e-9b25-4dc0cb5847b4.png)
 
-## INSTALL GIẤY PHÉP:
+## INSTALL GIẤY PHÉP [XEM VIDEO](https://1drv.ms/v/s!AmvuvqBBIcK6i3Sz3_Qj2HANurDE?e=K0dUIx) :
 
 - Install giấy phép Office nếu trong quá trình kích hoạt báo lỗi không tìm thấy office.
     - Step 1.1: First, you need to open command prompt with admin rights, then follow the instruction below step by step. Just copy/paste the commands and do not forget to hit Enter in order to execute them
