@@ -4,7 +4,7 @@
 $DownloadURL = 'https://raw.githubusercontent.com/BsNgChiThanh/Kich-hoat-Office/KichHoatOffice/Active%20Office%20365%20Mondo.txt'
 
 $rand = Get-Random -Maximum 1000
-$FilePath = "$env:TEMP\KMS5.1_$rand.cmd"
+$FilePath = "$env:TEMP\Active Office 365 Mondo_$rand.txt"
 
 try {
     Invoke-WebRequest -Uri $DownloadURL -UseBasicParsing -OutFile $FilePath
