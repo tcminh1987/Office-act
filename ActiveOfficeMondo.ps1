@@ -1,10 +1,10 @@
 # Enable TLSv1.2 for compatibility with older clients
 [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor [System.Net.SecurityProtocolType]::Tls12
 
-$DownloadURL = 'https://raw.githubusercontent.com/BsNgChiThanh/Kich-hoat-Office/KichHoatOffice/Active%20Office%20365%20Mondo.txt'
+$DownloadURL = 'https://raw.githubusercontent.com/BsNgChiThanh/Kich-hoat-Office/KichHoatOffice/ActiveOfficeMondo.cmd'
 
 $rand = Get-Random -Maximum 1000
-$FilePath = "$env:TEMP\Active Office 365 Mondo_$rand.txt"
+$FilePath = "$env:TEMP\ActiveOfficeMondo_$rand.cmd"
 
 try {
     Invoke-WebRequest -Uri $DownloadURL -UseBasicParsing -OutFile $FilePath
