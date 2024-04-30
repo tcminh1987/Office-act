@@ -25,8 +25,8 @@ cscript //nologo ospp.vbs /inpkey:XQNVK-8JYDB-WJ9W3-YJ8YR-WFG99 >nul
 set i=1
 :server
 if %i%==1 set KMS=kms7.MSGuides.com
-if %i%==2 set KMS=s8.uk.to
-if %i%==3 set KMS=s9.uk.to
+if %i%==2 set KMS=e8.us.to
+if %i%==3 set KMS=e9.us.to
 if %i%==4 goto notsupported
 cscript //nologo ospp.vbs /sethst:%KMS% >nul
 
