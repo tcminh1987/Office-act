@@ -2,7 +2,7 @@
 title  Activate Office 365 Mondo for FREE - https://github.com/BsNgChiThanh 
 cls
 echo Activating your Office Office 365 Mondo...
-echo Dang cai chung chi Office 365 Mondo...
+ 
 (if exist "%ProgramFiles%\Microsoft Office\Office16\ospp.vbs" cd /d "%ProgramFiles%\Microsoft Office\Office16")
 (if exist "%ProgramFiles(x86)%\Microsoft Office\Office16\ospp.vbs" cd /d "%ProgramFiles(x86)%\Microsoft Office\Office16")
 (for /f %%x in ('dir /b ..\root\Licenses16\proplusvl_kms*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%%x" >nul)
