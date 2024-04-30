@@ -5,9 +5,10 @@ echo Activating your Office Office 365 Mondo...
  
 (if exist "%ProgramFiles%\Microsoft Office\Office16\ospp.vbs" cd /d "%ProgramFiles%\Microsoft Office\Office16")
 (if exist "%ProgramFiles(x86)%\Microsoft Office\Office16\ospp.vbs" cd /d "%ProgramFiles(x86)%\Microsoft Office\Office16")
+
+
 (for /f %%x in ('dir /b ..\root\Licenses16\proplusvl_kms*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%%x" >nul)
 (for /f %%x in ('dir /b ..\root\Licenses16\proplusvl_mak*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%%x" >nul)
-
 
 
 (for /f %%x in ('dir /b ..\root\Licenses16\MondoVL_KMS_Client-ppd.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%%x" >nul)
@@ -43,12 +44,9 @@ if %i%==4 goto notsupported
 cscript //nologo ospp.vbs /sethst:%KMS% >nul
 
 cscript //nologo ospp.vbs /act | find /i "successful" 
-echo.
 echo OK, Done!
-
-
-echo.
 echo Dang kiem tra trang thai kich hoat...
+ 
 
 
 :office2016
