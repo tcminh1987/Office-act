@@ -1,12 +1,7 @@
 @echo off
 title Activate Microsoft Office 2016 ALL versions for FREE - https://github.com/BsNgChiThanh
 cls
-echo =====================================================================================
-echo #Project: Activating Microsoft software products for FREE without additional software
-echo =====================================================================================
-echo.
-echo #Supported products:&echo - Microsoft Office Standard 2016&echo - Microsoft Office Professional Plus 2016&echo.
-echo.
+echo Activating your Microsoft Office 2016...
 
 (if exist "%ProgramFiles%\Microsoft Office\Office16\ospp.vbs" cd /d "%ProgramFiles%\Microsoft Office\Office16")
 (if exist "%ProgramFiles(x86)%\Microsoft Office\Office16\ospp.vbs" cd /d "%ProgramFiles(x86)%\Microsoft Office\Office16")
@@ -25,14 +20,6 @@ echo.
 
 
 
-
-echo.
-echo ============================================================================
-echo Activating your Office...
-
-
-
-
 cscript //nologo slmgr.vbs /ckms >nul
 cscript //nologo ospp.vbs /setprt:1688 >nul
 cscript //nologo ospp.vbs /unpkey:WFG99 >nul
@@ -46,13 +33,15 @@ cscript //nologo ospp.vbs /inpkey:XQNVK-8JYDB-WJ9W3-YJ8YR-WFG99 >nul
 set i=1
 cscript //nologo ospp.vbs /inpkey:XQNVK-8JYDB-WJ9W3-YJ8YR-WFG99 >nul||goto notsupported
 
+
+
 :skms
 if %i% GTR 10 goto busy
 if %i% EQU 1 set KMS=kms7.MSGuides.com
-if %i% EQU 2 set KMS=107.175.77.7
-if %i% GTR 2 goto ato
+if %i% EQU 2 set KMS=e8.us.to
+if %i% EQU 3 set KMS=e9.us.to
+if %i% GTR 3 goto ato
 cscript //nologo ospp.vbs /sethst:%KMS% >nul
-
 
 :ato
 cscript //nologo ospp.vbs /act | find /i "successful" 
