@@ -1,7 +1,7 @@
 @echo off
 title  Activate Office 365 Mondo for FREE - https://github.com/BsNgChiThanh 
 cls
-echo Activating your Office Office 365 Mondo...
+echo Activating your Microsft Office 365 Mondo...
  
 (if exist "%ProgramFiles%\Microsoft Office\Office16\ospp.vbs" cd /d "%ProgramFiles%\Microsoft Office\Office16")
 (if exist "%ProgramFiles(x86)%\Microsoft Office\Office16\ospp.vbs" cd /d "%ProgramFiles(x86)%\Microsoft Office\Office16")
