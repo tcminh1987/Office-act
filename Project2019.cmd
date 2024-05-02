@@ -2,7 +2,7 @@
 title Activate Microsoft Project 2019 (ALL versions) for FREE - https://github.com/BsNgChiThanh 
 
 
-echo - Activating Microsoft Project Professional Plus 2019...
+echo Activating Microsoft Project Professional Plus 2019...
 
 
 cd /d %ProgramFiles%\Microsoft Office\Office16 
