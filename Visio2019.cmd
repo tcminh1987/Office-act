@@ -10,10 +10,9 @@ echo Activating Microsoft Visio 2019...
 
 
 cscript ospp.vbs /inslic:"..\root\Licenses16\pkeyconfig-office.xrm-ms"
-(for /f %x in ('dir /b ..\root\Licenses16\client-issuance*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%x")
-(for /f %x in ('dir /b ..\root\Licenses16\visioprovl_kms*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%x")
-(for /f %x in ('dir /b ..\root\Licenses16\visiopro2019vl_kms*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%x")
-
+cscript ospp.vbs /inslic:"..\root\root\Licenses16\client-issuance*.xrm-ms"
+cscript ospp.vbs /inslic:"..\root\Licenses16\visioprovl_kms*.xrm-ms"
+cscript ospp.vbs /inslic:"..\root\Licenses16\visiopro2019vl_kms*.xrm-ms
 
 
 
