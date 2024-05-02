@@ -15,7 +15,7 @@ echo.
 
 cscript //nologo ospp.vbs /unpkey:6MWKP >nul
 cscript //nologo ospp.vbs /inpkey:NMMKJ-6RK4F-KMJVX-8D9MJ-6MWKP >nul
-cscript //nologo ospp.vbs /inpkey:6NWWJ-YQWMR-QKGCB-6TMB3-9D9HK
+cscript //nologo ospp.vbs /inpkey:6NWWJ-YQWMR-QKGCB-6TMB3-9D9HK >nul
 cscript ospp.vbs /sethst:107.175.77.7
 cscript ospp.vbs /setprt:1688
 cscript ospp.vbs /act
