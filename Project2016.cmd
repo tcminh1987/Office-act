@@ -18,28 +18,12 @@ cscript //nologo ospp.vbs /inslic:"..\root\Licenses16\client-issuance-ul-oob.xrm
 cscript //nologo ospp.vbs /inslic:"..\root\Licenses16\pkeyconfig-office.xrm-ms" >nul
 
 
+cscript ospp.vbs /setprt:1688
+cscript ospp.vbs /inpkey:YG9NW-3K39V-2T3HJ-93F3Q-G83KT
+cscript ospp.vbs /inpkey:GNFHQ-F6YQM-KQDGJ-327XX-KQBVC
+cscript ospp.vbs /sethst:107.175.77.7
+cscript ospp.vbs /act
 
-cscript //nologo slmgr.vbs /ckms >nul
-cscript //nologo ospp.vbs /setprt:1688 >nul
-cscript //nologo ospp.vbs /unpkey:KQBVC >nul
-cscript //nologo ospp.vbs /unpkey:G83KT >nul
-
-
-set i=1
-cscript //nologo ospp.vbs /inpkey:YG9NW-3K39V-2T3HJ-93F3Q-G83KT >nul||goto notsupported
-
-
-:skms
-if %i% GTR 10 goto busy
-if %i% EQU 1 set KMS=kms7.MSGuides.com
-if %i% EQU 2 set KMS=e8.us.to
-if %i% EQU 3 set KMS=e9.us.to
-if %i% GTR 3 goto ato
-
-
-cscript //nologo ospp.vbs /sethst:%KMS% >nul
-:ato
-cscript //nologo ospp.vbs /act | find /i "successful" 
 
 
 :notsupported
