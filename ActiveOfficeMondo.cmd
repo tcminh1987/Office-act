@@ -28,7 +28,7 @@ set i=1
 if %i%==1 set setprt:1688
 if %i%==2 set sethst:107.175.77.7
 if %i%==3 goto notsupported
-cscript //nologo ospp.vbs /sethst:%KMS% >nul
+
 
 cscript //nologo ospp.vbs /act | find /i "successful" 
 echo OK, Done!
