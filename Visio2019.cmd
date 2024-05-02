@@ -9,10 +9,10 @@ echo Activating Microsoft Visio 2019...
 (if exist "%ProgramFiles(x86)%\Microsoft Office\Office16\ospp.vbs" cd /d "%ProgramFiles(x86)%\Microsoft Office\Office16")
 
 
-cscript //nologo ospp.vbs /inslic:"..\root\Licenses16\pkeyconfig-office.xrm-ms" 
-cscript //nologo ospp.vbs /inslic:"..\root\Licenses16\client-issuance*.xrm-ms"
-cscript //nologo ospp.vbs /inslic:"..\root\Licenses16\visioprovl_kms*.xrm-ms"
-cscript //nologo ospp.vbs /inslic:"..\root\Licenses16\visiopro2019vl_kms*.xrm-ms"
+(cscript //nologo ospp.vbs /setprt:1688 >nul || goto wshdisabled)&cscript //nologo ospp.vbs /inslic:"..\root\Licenses16\pkeyconfig-office.xrm-ms" >nul
+(for /f %%x in ('dir /b ..\root\Licenses16\client-issuance*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%%x" >nul)
+(for /f %%x in ('dir /b ..\root\Licenses16\visioprovl_kms*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%%x" >nul)
+(for /f %%x in ('dir /b ..\root\Licenses16\visiopro2019vl_kms*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%%x" >nul)
 
 
 cscript ospp.vbs /setprt:1688
