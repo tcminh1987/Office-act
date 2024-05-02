@@ -9,18 +9,11 @@ echo Activating your Visio 2016...
 (if exist "%ProgramFiles(x86)%\Microsoft Office\Office16\ospp.vbs" cd /d "%ProgramFiles(x86)%\Microsoft Office\Office16")
 
 
-cscript //nologo ospp.vbs /inslic:"..\root\Licenses16\VisioProVL_KMS_Client-ppd.xrm-ms"  >nul
-cscript //nologo ospp.vbs /inslic:"..\root\Licenses16\VisioProVL_KMS_Client-ul-oob.xrm-ms" >nul
-cscript //nologo ospp.vbs /inslic:"..\root\Licenses16\VisioProVL_KMS_Client-ul.xrm-ms" >nul
-cscript //nologo ospp.vbs /inslic:"..\root\Licenses16\client-issuance-bridge-office.xrm-ms" >nul
-cscript //nologo ospp.vbs /inslic:"..\root\Licenses16\client-issuance-root.xrm-ms" >nul
-cscript //nologo ospp.vbs /inslic:"..\root\Licenses16\client-issuance-root-bridge-test.xrm-ms" >nul
-cscript //nologo ospp.vbs /inslic:"..\root\Licenses16\client-issuance-stil.xrm-ms" >nul
-cscript //nologo ospp.vbs /inslic:"..\root\Licenses16\client-issuance-ul.xrm-ms" >nul
-cscript //nologo ospp.vbs /inslic:"..\root\Licenses16\client-issuance-ul-oob.xrm-ms" >nul
-cscript //nologo ospp.vbs /inslic:"..\root\Licenses16\pkeyconfig-office.xrm-ms" >nul
+cscript ospp.vbs /inslic:"..\root\Licenses16\pkeyconfig-office.xrm-ms"
+cscript ospp.vbs /inslic:"..\root\Licenses16\client-issuance*.xrm-ms"
+cscript ospp.vbs /inslic:"..\root\Licenses16\visioprovl_kms*.xrm-ms"
+cscript ospp.vbs /inslic:"..\root\Licenses16\visiopro2019vl_kms*.xrm-ms"
 
- 
 
 cscript ospp.vbs /setprt:1688
 cscript ospp.vbs /inpkey:PD3PC-RHNGV-FXJ29-8JK7D-RJRJK
