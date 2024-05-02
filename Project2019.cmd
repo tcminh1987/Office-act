@@ -5,8 +5,8 @@ title Activate Microsoft Project 2019 (ALL versions) for FREE - https://github.c
 echo Activating Microsoft Project Professional Plus 2019...
 
 
-cd /d %ProgramFiles%\Microsoft Office\Office16 
-cd /d %ProgramFiles(x86)%\Microsoft Office\Office16 
+(if exist "%ProgramFiles%\Microsoft Office\Office16\ospp.vbs" cd /d "%ProgramFiles%\Microsoft Office\Office16")
+(if exist "%ProgramFiles(x86)%\Microsoft Office\Office16\ospp.vbs" cd /d "%ProgramFiles(x86)%\Microsoft Office\Office16")
 
 
 cscript //nologo ospp.vbs /inslic:"..\root\Licenses16\pkeyconfig-office.xrm-ms" >nul
