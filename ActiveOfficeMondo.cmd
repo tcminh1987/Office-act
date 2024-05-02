@@ -24,12 +24,11 @@ cscript ospp.vbs /setprt:1688
 cscript ospp.vbs /act
 
 
-
 set i=1
 :server
 if %i%==1 set setprt:1688
 if %i%==2 set sethst:107.175.77.7
-if %i%==3 set KMS=e9.us.to
+if %i%==3 set KMS_Sev=e9.us.to
 if %i%==4 goto notsupported
 cscript //nologo ospp.vbs /sethst:%KMS% >nul
 
