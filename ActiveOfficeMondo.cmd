@@ -23,10 +23,6 @@ cscript ospp.vbs /sethst:107.175.77.7
 cscript ospp.vbs /act
 
 
-cscript //nologo ospp.vbs /act | find /i "successful" 
-echo OK, Done!
-
-
 :end
 :notsupported
 :halt
