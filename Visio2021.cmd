@@ -21,7 +21,6 @@ cscript ospp.vbs /sethst:172.16.0.2
 cscript ospp.vbs /act
 
 
-timeout 10
 :end
 :notsupported
 :halt
