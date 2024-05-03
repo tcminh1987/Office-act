@@ -17,7 +17,7 @@ Kích hoạt Office 2010, 2013, 2016, 2019, 2021, Office 365 Mondo, Office 365 E
 - Hoặc https://github.com/BsNgChiThanh/SourceOffice
 - Nếu bạn muốn tìm key windows và office thì [bấm vào đây](https://t.me/+yqfFsJPOciwyY2Vl) 
 - [Hướng dẫn Microsoft](https://docs.microsoft.com/vi-vn/deployoffice/vlactivation/configure-a-kms-host-computer-for-office) 
-- [Key KMS bấm vào đây](https://github.com/alexroyce315/KMS-Keys) 
+- [Key KMS bấm vào đây](https://github.com/BsNgChiThanh/KeyKMS/blob/IMP/README.md) 
 - Tôi vẫn thích dùng Office 365 hơn vì nó chỉ add tài khoản Office 365 A1+, E3, E5 là active ngon lành cành đào, nhập một lúc vài chục tài khoản luôn cho thể hiện đẳng cấp 
 - ![image](https://user-images.githubusercontent.com/82578024/231724418-cce14eb7-1c9c-468e-9b25-4dc0cb5847b4.png)
 
