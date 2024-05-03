@@ -1,15 +1,13 @@
 @echo off
 title Activate Microsoft Office 2021 (ALL versions) for FREE - https://github.com/BsNgChiThanh
 cls
- 
+
+echo Activating your Microsoft Office 2021...
 
 (if exist "%ProgramFiles%\Microsoft Office\Office16\ospp.vbs" cd /d "%ProgramFiles%\Microsoft Office\Office16")
 (if exist "%ProgramFiles(x86)%\Microsoft Office\Office16\ospp.vbs" cd /d "%ProgramFiles(x86)%\Microsoft Office\Office16")
 
 (for /f %%x in ('dir /b ..\root\Licenses16\ProPlus2021VL_KMS*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%%x" >nul)
-
- 
-echo Activating your Microsoft Office 2021...
 
 
 script ospp.vbs /setprt:1688
