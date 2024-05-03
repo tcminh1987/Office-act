@@ -15,6 +15,7 @@ echo Activating your Microsoft Office 2021...
 script ospp.vbs /setprt:1688
 cscript ospp.vbs /inpkey:FXYTK-NJJ8C-GB6DW-3DYQT-6F7TH
 cscript ospp.vbs /sethst:107.175.77.7
+cscript ospp.vbs /sethst:172.16.0.2
 cscript ospp.vbs /act
 
 
