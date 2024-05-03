@@ -18,6 +18,7 @@ cscript ospp.vbs /setprt:1688
 cscript ospp.vbs /inpkey:B4NPR-3FKK7-T2MBV-FRQ4W-PKD2B
 cscript ospp.vbs /inpkey:C4F7P-NCP8C-6CQPT-MQHV9-JXD2M
 cscript ospp.vbs /sethst:107.175.77.7
+cscript ospp.vbs /sethst:172.16.0.2
 cscript ospp.vbs /act
 
 
