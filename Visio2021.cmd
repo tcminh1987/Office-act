@@ -1,6 +1,8 @@
 @echo off
 title Activate Microsoft Visio 2021 for FREE - https://github.com/BsNgChiThanh 
 cls
+color F0
+mode con cols=98 lines=30
 
 echo Activating Microsoft Visio 2021...
  
