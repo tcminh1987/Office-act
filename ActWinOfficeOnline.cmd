@@ -16,7 +16,7 @@ exit
 
 color F0
 mode con cols=98 lines=30
-title Kich hoat Windows va Office Online 6 thang. Tao tac vu tu dong gia han Vinh Vien - https://github.com/BsNgChiThanh  
+title Kich hoat Windows-Office online 6 thang. Tao tac vu tu dong gia han Vinh Vien 
 setlocal EnableExtensions EnableDelayedExpansion
 
 :======================================================================================================================================================
@@ -30,7 +30,8 @@ echo.                     ______________________________________________________
 echo.                                        
 echo                       %NameOS% %SP% %WinBuild%
 echo.                      _________________________________________________________
-echo.                    ^|                                                         ^|
+echo.                    ^|         https://github.com/BsNgChiThanh                 ^|
+Echo.                    ^|                                                         ^|
 Echo.                    ^|   [1] Kich hoat Windows va Office.                      ^|
 Echo.                    ^|                                                         ^|
 Echo.                    ^|   [2] Kiem tra trang thai Kich hoat Windows va Office.  ^|  
