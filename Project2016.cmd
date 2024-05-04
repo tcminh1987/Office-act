@@ -1,5 +1,9 @@
 @echo off
 title Activate Microsoft Project 2016 (ALL versions) for FREE - https://github.com/BsNgChiThanh
+cls
+color F0
+mode con cols=98 lines=30
+
 echo Activating your Project 2016...
 
 (if exist "%ProgramFiles%\Microsoft Office\Office16\ospp.vbs" cd /d "%ProgramFiles%\Microsoft Office\Office16")
@@ -25,7 +29,9 @@ cscript ospp.vbs /sethst:107.175.77.7
 cscript ospp.vbs /sethst:172.16.0.2
 cscript ospp.vbs /act
 
-
+echo.
+echo.
+echo Nhan phim bat ky de thoat.
 
 :notsupported
 :halt
