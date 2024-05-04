@@ -16,7 +16,7 @@ exit
 
 color F0
 mode con cols=98 lines=30
-title Kich hoat Windows va Office Online 6 thang & tao tac vu tu dong gia han Vinh Vien - https://github.com/BsNgChiThanh  
+title Kich hoat Windows va Office Online 6 thang. Tao tac vu tu dong gia han Vinh Vien - https://github.com/BsNgChiThanh  
 setlocal EnableExtensions EnableDelayedExpansion
 
 :======================================================================================================================================================
