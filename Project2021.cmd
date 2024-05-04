@@ -5,10 +5,10 @@ cls
 echo Activating Microsoft Project 2021...
 
 
-
-
 cd /d %ProgramFiles%\Microsoft Office\Office16
 cd /d %ProgramFiles(x86)%\Microsoft Office\Office16
+
+
 cscript ospp.vbs /inslic:"..\root\Licenses16\pkeyconfig-office.xrm-ms"
 (for /f %x in ('dir /b ..\root\Licenses16\client-issuance*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%x")
 (for /f %x in ('dir /b ..\root\Licenses16\projectprovl_kms*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%x")
