@@ -1,6 +1,8 @@
 @echo off
 title Activate Microsoft Visio 2016 (ALL versions) for FREE - https://github.com/BsNgChiThanh
 cls
+color F0
+mode con cols=98 lines=30
 
 echo Activating your Visio 2016...
 
