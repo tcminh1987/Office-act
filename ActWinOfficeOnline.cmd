@@ -29,7 +29,7 @@ for /f "tokens=2 delims==" %%a in ('wmic path Win32_OperatingSystem get BuildNum
 echo.                     _________________________________________________________
 echo.                                        
 echo                       %NameOS% %SP% %WinBuild%
-echo.                      _________________________________________________________
+echo.                     _________________________________________________________
 echo.                    ^|         https://github.com/BsNgChiThanh                 ^|
 Echo.                    ^|                                                         ^|
 Echo.                    ^|   [1] Kich hoat Windows va Office.                      ^|
