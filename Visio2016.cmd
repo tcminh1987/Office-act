@@ -22,6 +22,9 @@ cscript ospp.vbs /sethst:107.175.77.7
 cscript ospp.vbs /sethst:172.16.0.2
 cscript ospp.vbs /act
 
+echo.
+echo.
+echo Nhan phim bat ky de thoat.
 
 :end
 :notsupported
