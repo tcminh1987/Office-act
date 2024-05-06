@@ -1,6 +1,8 @@
 @echo off
 title  Activate Office 365 Mondo for FREE - https://github.com/BsNgChiThanh 
 cls
+color F0
+mode con cols=98 lines=30
 echo Activating your Microsft Office 365 Mondo...
  
 (if exist "%ProgramFiles%\Microsoft Office\Office16\ospp.vbs" cd /d "%ProgramFiles%\Microsoft Office\Office16")
@@ -20,7 +22,12 @@ cscript ospp.vbs /setprt:1688
 cscript ospp.vbs /inpkey:DMTCJ-KNRKX-26982-JYCKT-P7KB6
 cscript ospp.vbs /inpkey:HFTND-W9MK4-8B7MJ-B6C4G-XQBR2
 cscript ospp.vbs /sethst:107.175.77.7
+cscript ospp.vbs /sethst:172.16.0.2
 cscript ospp.vbs /act
+
+echo.
+echo.
+echo Nhan phim bat ky de thoat.
 
 
 :end
