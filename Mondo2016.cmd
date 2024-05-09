@@ -21,7 +21,7 @@ Echo.                    ^|   [3] Kich hoat Office 2019                         
 echo.                    ^|                                                         ^|
 echo.                    ^|   [4] Kich hoat Office 2016                             ^| 
 echo.                    ^|                                                         ^| 
-echo.                    ^|   [5] Xem trạng thái kích hoạt Office                   ^| 
+echo.                    ^|   [5] Xem trang thai kich hoat Office                   ^| 
 echo.                    ^|                                                         ^| 
 Echo.                    ^|   [6] Thoat.                                            ^|
 Echo.                    ^|_________________________________________________________^|
