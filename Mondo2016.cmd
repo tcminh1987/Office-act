@@ -13,25 +13,49 @@ echo.
 echo.                                       BSCK1. NGUYEN CHI THANH
 echo.                     _________________________________________________________
 echo.                    ^|                                                         ^|
-Echo.                    ^|   [1] 365 Mondo.                                        ^|
+Echo.                    ^|   [1] Kich hoat Office 365 Mondo.                       ^|
 Echo.                    ^|                                                         ^|
-Echo.                    ^|   [2] 2021.                                             ^|  
+Echo.                    ^|   [2] Kich hoat Office 2021.                            ^|  
 Echo.                    ^|                                                         ^|
-Echo.                    ^|   [3] 2019                                              ^|
+Echo.                    ^|   [3] Kich hoat Office 2019                             ^|
 echo.                    ^|                                                         ^|
-echo.                    ^|   [4] 2016                                              ^| 
+echo.                    ^|   [4] Kich hoat Office 2016                             ^| 
 echo.                    ^|                                                         ^| 
-Echo.                    ^|   [5] Thoat.                                            ^|
+echo.                    ^|   [5] Xem trạng thái kích hoạt Office                   ^| 
+echo.                    ^|                                                         ^| 
+Echo.                    ^|   [6] Thoat.                                            ^|
 Echo.                    ^|_________________________________________________________^|
 ECHO.            
-choice /C:12345 /N /M ".                      Nhap lua chon cua ban [1,2,3,4,5] : "
-if errorlevel 5 goto:Exit
+choice /C:123456 /N /M ".                      Nhap lua chon cua ban [1,2,3,4,5,6] : "
+if errorlevel 6 goto:Exit
+if errorlevel 5 goto:TrangthaiOffice
 if errorlevel 4 goto:Office2016
 if errorlevel 3 goto:Office2019
 if errorlevel 2 goto:Office2021
 if errorlevel 1 goto:365Mondo
 
+:======================================================================================================================================================
+:TrangthaiOffice
+cls
 
+color F0
+mode con cols=98 lines=30
+echo Xem trang thai Office cua ban...
+
+(if exist "%ProgramFiles%\Microsoft Office\Office16\ospp.vbs" cd /d "%ProgramFiles%\Microsoft Office\Office16")
+(if exist "%ProgramFiles(x86)%\Microsoft Office\Office16\ospp.vbs" cd /d "%ProgramFiles(x86)%\Microsoft Office\Office16")
+
+cscript ospp.vbs /dstatus
+
+echo.
+echo.
+echo Bam phim bat ki de ve menu chinh
+
+:notsupported
+:halt
+pause >nul
+
+goto:MAINMENU
 :======================================================================================================================================================
 
 :365Mondo
