@@ -49,6 +49,7 @@ cscript ospp.vbs /dstatus
 
 echo.
 echo.
+start BIN\Text\trangthaikichhoat.txt
 echo Bam phim bat ki de ve menu chinh
 
 :notsupported
