@@ -39,7 +39,7 @@ if errorlevel 1 goto:365Mondo
 cls
 
 color F0
-mode con cols=200 lines=200
+mode con cols=150 lines=150
 echo Xem trang thai Office cua ban...
 
 (if exist "%ProgramFiles%\Microsoft Office\Office16\ospp.vbs" cd /d "%ProgramFiles%\Microsoft Office\Office16")
