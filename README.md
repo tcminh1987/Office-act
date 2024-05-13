@@ -12,6 +12,7 @@ Kích hoạt Office 2010, 2013, 2016, 2019, 2021, Office 365 Mondo, Office 365 E
   - [Kích hoạt Office 2010, 2013](https://msguides.com/office-2010-2013)
   
 ## Một số nguồn quan trọng ##
+- [Office Tool Plus](https://otp.landian.vip/en-us/download.html)
 - [Source nguồn Office](https://docs.google.com/spreadsheets/d/e/2PACX-1vRlK-vRwPJHDaANT81EjyG4m5ZnLXdKRYfS0eKXyCzGymEfUDmKHRhxvUbtWYTfVn7MJ3E2jk7v3cGi/pubhtml?gid=605361024&single=true). Password giải nén nếu có của nguồn này [bấm vào đây](https://docs.google.com/document/d/1nskNEcAVu1SbhSzdRfGQWwT3aYtKUzLN/edit?usp=drivesdk&ouid=108710666609351868901&rtpof=true&sd=true) hoặc [bấm vào đây](https://tb.rg-adguard.net/public.php) 
 - Hoặc download source từ trang https://massgrave.dev/genuine-installation-media.html
 - Hoặc https://github.com/BsNgChiThanh/SourceOffice
