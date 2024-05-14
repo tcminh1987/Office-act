@@ -384,6 +384,8 @@ echo Activating your Microsoft Office prolus 2016...
 cscript ospp.vbs /setprt:1688
 cscript ospp.vbs /inpkey:JNRGM-WHDWX-FJJG3-K47QV-DRTFM
 cscript ospp.vbs /inpkey:XQNVK-8JYDB-WJ9W3-YJ8YR-WFG99
+cscript ospp.vbs /inpkey:N4RFM-3CKDQ-9Q86Y-J9Q9G-722QY
+cscript ospp.vbs /inpkey:2BNWF-HQ3XJ-QHXQD-639QJ-XW3M2
 cscript ospp.vbs /sethst:107.175.77.7
 cscript ospp.vbs /sethst:172.16.0.2
 cscript ospp.vbs /act
