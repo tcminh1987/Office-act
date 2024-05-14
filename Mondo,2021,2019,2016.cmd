@@ -1,7 +1,7 @@
 @echo off
 color F0
 mode con cols=98 lines=30
-title Activate Office 365 Mondo, 2021, 2019, 2016 Free - https://github.com/BsNgChiThanh 
+title Activate Office 365 Mondo, 2021, 2019, 2016, 2013, 2010 - https://github.com/BsNgChiThanh 
 setlocal EnableExtensions EnableDelayedExpansion
 
 :======================================================================================================================================================
@@ -21,16 +21,21 @@ Echo.                    ^|   [3] 2019                                          
 echo.                    ^|                                                         ^|
 echo.                    ^|   [4] 2016                                              ^| 
 echo.                    ^|                                                         ^| 
-Echo.                    ^|   [5] Thoat.                                            ^|
+echo.                    ^|   [5] 2013                                              ^| 
+echo.                    ^|                                                         ^| 
+echo.                    ^|   [6] 2010                                              ^| 
+echo.                    ^|                                                         ^| 
+Echo.                    ^|   [7] Thoat.                                            ^|
 Echo.                    ^|_________________________________________________________^|
 ECHO.            
-choice /C:12345 /N /M ".                      Nhap lua chon cua ban [1,2,3,4,5] : "
-if errorlevel 5 goto:Exit
+choice /C:1234567 /N /M ".                     Nhap lua chon cua ban [1,2,3,4,5,6,7] : "
+if errorlevel 7 goto:Exit
+if errorlevel 6 goto:Office2010
+if errorlevel 5 goto:Office2013
 if errorlevel 4 goto:Office2016
 if errorlevel 3 goto:Office2019
 if errorlevel 2 goto:Office2021
 if errorlevel 1 goto:365Mondo
-
 
 :======================================================================================================================================================
 
@@ -70,8 +75,6 @@ echo Bam phim bat ki de ve menu chinh
 pause >nul
 
 goto:MAINMENU
-
-
 
  ===============================================================================================
 :Office2021
@@ -471,9 +474,244 @@ echo Bam phim bat ki de ve menu chinh
 pause >nul
 
 goto:MAINMENU
-:=========================================================== 
  ===============================================================================================
+:=========================================================== 
+:Office2013
 
+cls
+mode con cols=98 lines=30
+
+
+echo.                                       BSCK1. NGUYEN CHI THANH
+echo.                     _________________________________________________________
+echo.                    ^|                                                         ^|
+Echo.                    ^|   [1] Office 2013 Prolus.                               ^|
+Echo.                    ^|                                                         ^|
+Echo.                    ^|   [2] Project 2013.                                     ^|  
+Echo.                    ^|                                                         ^|
+Echo.                    ^|   [3] Visio 2013                                        ^|
+echo.                    ^|                                                         ^|
+echo.                    ^|   [4] Ve Menu chinh                                     ^| 
+echo.                    ^|                                                         ^| 
+Echo.                    ^|_________________________________________________________^|
+ECHO.            
+choice /C:1234 /N /M ".                       Nhap lua chon cua ban [1,2,3,4] : "
+
+if errorlevel 4 goto:MAINMENU
+if errorlevel 3 goto:Visio2013
+if errorlevel 2 goto:Project2013
+if errorlevel 1 goto:Office2013Prolus
+ =========================================================== 
+:Office2013Prolus
+cls
+
+color F0
+mode con cols=98 lines=30
+
+echo Activating your Microsoft Office 2013...
+
+set v=15
+if exist "%ProgramFiles%\Microsoft Office\Office%v%\ospp.vbs" cd /d "%ProgramFiles%\Microsoft Office\Office%v%"
+if exist "%ProgramFiles(x86)%\Microsoft Office\Office%v%\ospp.vbs" cd /d "%ProgramFiles(x86)%\Microsoft Office\Office%v%"
+
+cscript ospp.vbs /setprt:1688
+cscript OSPP.VBS /inpkey:YC7DK-G2NP3-2QQC3-J6H88-GVGXT
+cscript OSPP.VBS /inpkey:KBKQT-2NMXY-JJWGP-M62JB-92CD4
+cscript ospp.vbs /sethst:107.175.77.7
+cscript ospp.vbs /sethst:172.16.0.2
+cscript ospp.vbs /act
+
+echo.
+echo.
+echo Bam phim bat ki de ve menu chinh
+
+:notsupported
+:halt
+pause >nul
+
+goto:MAINMENU
+ =========================================================== 
+:Project2013
+
+cls
+
+color F0
+mode con cols=98 lines=30
+
+echo Activating your Project 2013...
+
+set v=15
+if exist "%ProgramFiles%\Microsoft Office\Office%v%\ospp.vbs" cd /d "%ProgramFiles%\Microsoft Office\Office%v%"
+if exist "%ProgramFiles(x86)%\Microsoft Office\Office%v%\ospp.vbs" cd /d "%ProgramFiles(x86)%\Microsoft Office\Office%v%"
+
+cscript ospp.vbs /setprt:1688
+cscript OSPP.VBS /inpkey:FN8TT-7WMH6-2D4X9-M337T-2342K
+cscript OSPP.VBS /inpkey:6NTH3-CW976-3G3Y2-JK3TX-8QHTT
+cscript ospp.vbs /sethst:107.175.77.7
+cscript ospp.vbs /sethst:172.16.0.2
+cscript ospp.vbs /act
+
+
+echo.
+echo.
+echo Bam phim bat ki de ve menu chinh
+
+:notsupported
+:halt
+pause >nul
+
+goto:MAINMENU
+
+ =========================================================== 
+:Visio2013
+
+cls
+
+color F0
+mode con cols=98 lines=30
+
+echo Activating your Project 2013...
+
+set v=15
+if exist "%ProgramFiles%\Microsoft Office\Office%v%\ospp.vbs" cd /d "%ProgramFiles%\Microsoft Office\Office%v%"
+if exist "%ProgramFiles(x86)%\Microsoft Office\Office%v%\ospp.vbs" cd /d "%ProgramFiles(x86)%\Microsoft Office\Office%v%"
+
+cscript ospp.vbs /setprt:1688
+cscript OSPP.VBS /inpkey:C2FG9-N6J68-H8BTJ-BW3QX-RM3B3
+cscript OSPP.VBS /inpkey:J484Y-4NKBF-W2HMG-DBMJC-PGWR7
+cscript ospp.vbs /sethst:107.175.77.7
+cscript ospp.vbs /sethst:172.16.0.2
+cscript ospp.vbs /act
+
+
+echo.
+echo.
+echo Bam phim bat ki de ve menu chinh
+
+:notsupported
+:halt
+pause >nul
+
+goto:MAINMENU
+ ===============================================================================================
+ =========================================================== 
+:Office2010
+cls
+mode con cols=98 lines=30
+
+
+echo.                                       BSCK1. NGUYEN CHI THANH
+echo.                     _________________________________________________________
+echo.                    ^|                                                         ^|
+Echo.                    ^|   [1] Office 2010 Prolus.                               ^|
+Echo.                    ^|                                                         ^|
+Echo.                    ^|   [2] Project 2010.                                     ^|  
+Echo.                    ^|                                                         ^|
+Echo.                    ^|   [3] Visio 2010                                        ^|
+echo.                    ^|                                                         ^|
+echo.                    ^|   [4] Ve Menu chinh                                     ^| 
+echo.                    ^|                                                         ^| 
+Echo.                    ^|_________________________________________________________^|
+ECHO.            
+choice /C:1234 /N /M ".                       Nhap lua chon cua ban [1,2,3,4] : "
+
+if errorlevel 4 goto:MAINMENU
+if errorlevel 3 goto:Visio2010
+if errorlevel 2 goto:Project2010
+if errorlevel 1 goto:Office2010Prolus
+ =========================================================== 
+:Office2010Prolus
+cls
+
+color F0
+mode con cols=98 lines=30
+
+echo Activating your Office Prolus 2013...
+
+set v=14
+if exist "%ProgramFiles%\Microsoft Office\Office%v%\ospp.vbs" cd /d "%ProgramFiles%\Microsoft Office\Office%v%"
+if exist "%ProgramFiles(x86)%\Microsoft Office\Office%v%\ospp.vbs" cd /d "%ProgramFiles(x86)%\Microsoft Office\Office%v%"
+
+cscript ospp.vbs /setprt:1688
+cscript //Nologo OSPP.VBS /inpkey:VYBBJ-TRJPB-QFQRF-QFT4D-H3GVB
+cscript //Nologo OSPP.VBS /inpkey:V7QKV-4XVVR-XYV4D-F7DFM-8R6BM
+cscript ospp.vbs /sethst:107.175.77.7
+cscript ospp.vbs /sethst:172.16.0.2
+cscript ospp.vbs /act
+
+
+echo.
+echo.
+echo Bam phim bat ki de ve menu chinh
+
+:notsupported
+:halt
+pause >nul
+
+goto:MAINMENU
+
+
+ =========================================================== 
+:Project2010
+cls
+
+color F0
+mode con cols=98 lines=30
+
+echo Activating your Project 2013...
+
+set v=14
+if exist "%ProgramFiles%\Microsoft Office\Office%v%\ospp.vbs" cd /d "%ProgramFiles%\Microsoft Office\Office%v%"
+if exist "%ProgramFiles(x86)%\Microsoft Office\Office%v%\ospp.vbs" cd /d "%ProgramFiles(x86)%\Microsoft Office\Office%v%"
+
+cscript ospp.vbs /setprt:1688
+cscript //Nologo OSPP.VBS /inpkey:YGX6F-PGV49-PGW3J-9BTGG-VHKC6
+cscript //Nologo OSPP.VBS /inpkey:4HP3K-88W3F-W2K3D-6677X-F9PGB
+cscript ospp.vbs /sethst:107.175.77.7
+cscript ospp.vbs /sethst:172.16.0.2
+cscript ospp.vbs /act
+
+
+echo.
+echo.
+echo Bam phim bat ki de ve menu chinh
+
+:notsupported
+:halt
+pause >nul
+
+goto:MAINMENU
+ =========================================================== 
+:Visio2010
+cls
+
+color F0
+mode con cols=98 lines=30
+
+echo Activating your Project 2013...
+
+set v=14
+if exist "%ProgramFiles%\Microsoft Office\Office%v%\ospp.vbs" cd /d "%ProgramFiles%\Microsoft Office\Office%v%"
+if exist "%ProgramFiles(x86)%\Microsoft Office\Office%v%\ospp.vbs" cd /d "%ProgramFiles(x86)%\Microsoft Office\Office%v%"
+
+cscript //Nologo OSPP.VBS /inpkey:D9DWC-HPYVV-JGF4P-BTWQB-WX8BJ
+cscript //Nologo OSPP.VBS /inpkey:7MCW8-VRQVK-G677T-PDJCM-Q8TCP
+cscript //Nologo OSPP.VBS /inpkey:767HD-QGMWX-8QTDB-9G3R2-KHFGJ
+cscript ospp.vbs /sethst:107.175.77.7
+cscript ospp.vbs /sethst:172.16.0.2
+cscript ospp.vbs /act
+
+
+echo.
+echo.
+echo Bam phim bat ki de ve menu chinh
+
+:notsupported
+:halt
+pause >nul
+
+goto:MAINMENU
+ ===============================================================================================
 :======================================================================================================================================================
 :Exit
 cls
