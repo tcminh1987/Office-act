@@ -1,5 +1,5 @@
 @echo off
-title Kich hoat Microsoft Office 2019 ALL versions - https://github.com/BsNgChiThanh
+title Kich hoat Microsoft Office 2019 - https://github.com/BsNgChiThanh
 cls
 color F0
 mode con cols=98 lines=30
