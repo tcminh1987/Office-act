@@ -253,6 +253,7 @@ echo.
 cscript ospp.vbs /setprt:1688
 cscript ospp.vbs /inpkey:NMMKJ-6RK4F-KMJVX-8D9MJ-6MWKP
 cscript ospp.vbs /inpkey:6NWWJ-YQWMR-QKGCB-6TMB3-9D9HK
+cscript ospp.vbs /inpkey:GGNVX-TPWVT-XR67G-F2BXJ-7FVQD
 cscript ospp.vbs /sethst:107.175.77.7
 cscript ospp.vbs /sethst:172.16.0.2
 cscript ospp.vbs /act
