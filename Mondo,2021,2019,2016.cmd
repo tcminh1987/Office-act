@@ -634,7 +634,7 @@ cls
 color F0
 mode con cols=98 lines=30
 
-echo Activating your Office Prolus 2013...
+echo Activating your Office Prolus 2010...
 
 set v=14
 if exist "%ProgramFiles%\Microsoft Office\Office%v%\ospp.vbs" cd /d "%ProgramFiles%\Microsoft Office\Office%v%"
@@ -643,6 +643,7 @@ if exist "%ProgramFiles(x86)%\Microsoft Office\Office%v%\ospp.vbs" cd /d "%Progr
 cscript ospp.vbs /setprt:1688
 cscript //Nologo OSPP.VBS /inpkey:VYBBJ-TRJPB-QFQRF-QFT4D-H3GVB
 cscript //Nologo OSPP.VBS /inpkey:V7QKV-4XVVR-XYV4D-F7DFM-8R6BM
+cscript //Nologo OSPP.VBS /inpkey:R93BY-NV3QQ-7987G-BQ9M6-VCCDH
 cscript ospp.vbs /sethst:107.175.77.7
 cscript ospp.vbs /sethst:172.16.0.2
 cscript ospp.vbs /act
@@ -666,7 +667,7 @@ cls
 color F0
 mode con cols=98 lines=30
 
-echo Activating your Project 2013...
+echo Activating your Project 2010...
 
 set v=14
 if exist "%ProgramFiles%\Microsoft Office\Office%v%\ospp.vbs" cd /d "%ProgramFiles%\Microsoft Office\Office%v%"
@@ -696,7 +697,7 @@ cls
 color F0
 mode con cols=98 lines=30
 
-echo Activating your Project 2013...
+echo Activating your Project 2010...
 
 set v=14
 if exist "%ProgramFiles%\Microsoft Office\Office%v%\ospp.vbs" cd /d "%ProgramFiles%\Microsoft Office\Office%v%"
