@@ -1,5 +1,5 @@
 @echo off
-title Activate Microsoft Office 2021 (ALL versions) for FREE - https://github.com/BsNgChiThanh
+title Activate Microsoft Office 2021 - https://github.com/BsNgChiThanh
 cls
 color F0
 mode con cols=98 lines=30
