@@ -697,7 +697,7 @@ cls
 color F0
 mode con cols=98 lines=30
 
-echo Activating your Project 2010...
+echo Activating your Visio 2010...
 
 set v=14
 if exist "%ProgramFiles%\Microsoft Office\Office%v%\ospp.vbs" cd /d "%ProgramFiles%\Microsoft Office\Office%v%"
