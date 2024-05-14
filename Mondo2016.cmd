@@ -634,7 +634,7 @@ cls
 color F0
 mode con cols=98 lines=30
 
-echo Activating your Office Prolus 2013...
+echo Activating your Office Prolus 2010...
 
 set v=14
 if exist "%ProgramFiles%\Microsoft Office\Office%v%\ospp.vbs" cd /d "%ProgramFiles%\Microsoft Office\Office%v%"
@@ -666,7 +666,7 @@ cls
 color F0
 mode con cols=98 lines=30
 
-echo Activating your Project 2013...
+echo Activating your Project 2010...
 
 set v=14
 if exist "%ProgramFiles%\Microsoft Office\Office%v%\ospp.vbs" cd /d "%ProgramFiles%\Microsoft Office\Office%v%"
@@ -696,7 +696,7 @@ cls
 color F0
 mode con cols=98 lines=30
 
-echo Activating your Project 2013...
+echo Activating your Visio 2010...
 
 set v=14
 if exist "%ProgramFiles%\Microsoft Office\Office%v%\ospp.vbs" cd /d "%ProgramFiles%\Microsoft Office\Office%v%"
