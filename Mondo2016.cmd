@@ -517,6 +517,7 @@ if exist "%ProgramFiles(x86)%\Microsoft Office\Office%v%\ospp.vbs" cd /d "%Progr
 cscript ospp.vbs /setprt:1688
 cscript OSPP.VBS /inpkey:YC7DK-G2NP3-2QQC3-J6H88-GVGXT
 cscript OSPP.VBS /inpkey:KBKQT-2NMXY-JJWGP-M62JB-92CD4
+cscript OSPP.VBS /inpkey:472JN-9KRCH-9YKBC-XVYKY-DPCDH
 cscript ospp.vbs /sethst:107.175.77.7
 cscript ospp.vbs /sethst:172.16.0.2
 cscript ospp.vbs /act
