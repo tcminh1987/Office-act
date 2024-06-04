@@ -1,10 +1,10 @@
 # Enable TLSv1.2 for compatibility with older clients
 [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor [System.Net.SecurityProtocolType]::Tls12
 
-$DownloadURL = 'https://raw.githubusercontent.com/BsNgChiThanh/Kich-hoat-Office/KichHoatOffice/ActWinOfficeOnline.cmd'
+$DownloadURL = 'https://raw.githubusercontent.com/BsNgChiThanh/AutoRenewOfficeWindows/IMP/RenewActive.cmd'
 
 $rand = Get-Random -Maximum 1000
-$FilePath = "$env:TEMP\ActWinOfficeOnline_$rand.cmd"
+$FilePath = "$env:TEMP\RenewActive_$rand.cmd"
 
 try {
     Invoke-WebRequest -Uri $DownloadURL -UseBasicParsing -OutFile $FilePath
