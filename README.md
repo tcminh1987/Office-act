@@ -60,14 +60,12 @@ Kích hoạt Office 2010, 2013, 2016, 2019, 2021, Office 365 Mondo, Office 365 E
 ## Project 2021 ##
   - https://github.com/BsNgChiThanh/Cai-project-pro2021-va-kich-hoat
   - Download projectPro 2021 [tại đây](https://officecdn.microsoft.com/db/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/media/en-us/ProjectPro2021Retail.img)
-  - Source code: https://github.com/BsNgChiThanh/Kich-hoat-Office/blob/KichHoatOffice/Project2021.txt
   - Dùng KMS VL ALL AIO để kích hoạt: https://github.com/BsNgChiThanh/KMS_VL_ALL_AIO
   - Dùng Activate AIO Tools kích hoạt: https://github.com/BsNgChiThanh/ActivateAIOTools
   - Dùng MAS TOOL để kích hoạt https://github.com/BsNgChiThanh/MAS-TOOL
 ## Visio 2021 ##
   - https://github.com/BsNgChiThanh/Cai-visio-pro2021-va-kich-hoat
   - Download source [Visio 2021](https://officecdn.microsoft.com/db/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/media/en-us/VisioPro2021Retail.img)
-  - Source code: https://github.com/BsNgChiThanh/Kich-hoat-Office/blob/KichHoatOffice/Visio2021.txt
   - Dùng KMS VL ALL AIO để kích hoạt: https://github.com/BsNgChiThanh/KMS_VL_ALL_AIO
   - Dùng Activate AIO Tools kích hoạt: https://github.com/BsNgChiThanh/ActivateAIOTools
   - Dùng MAS TOOL để kích hoạt https://github.com/BsNgChiThanh/MAS-TOOL
@@ -82,14 +80,12 @@ Kích hoạt Office 2010, 2013, 2016, 2019, 2021, Office 365 Mondo, Office 365 E
         
 ## Project 2019 ##
   - https://github.com/BsNgChiThanh/Cai-Project2019-va-kich-hoat
-  - Source code: https://github.com/BsNgChiThanh/Kich-hoat-Office/blob/KichHoatOffice/Project2019.txt
   - Download source [Project 2019](https://officecdn.microsoft.com/db/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/media/en-us/ProjectPro2019Retail.img)
   - Dùng KMS VL ALL AIO để kích hoạt: https://github.com/BsNgChiThanh/KMS_VL_ALL_AIO
   - Dùng Activate AIO Tools kích hoạt: https://github.com/BsNgChiThanh/ActivateAIOTools
   - Dùng MAS TOOL để kích hoạt https://github.com/BsNgChiThanh/MAS-TOOL
 ## Visio 2019 ##
   - https://github.com/BsNgChiThanh/Cai-Visio2019-va-kich-hoat
-  - Source code: https://github.com/BsNgChiThanh/Kich-hoat-Office/blob/KichHoatOffice/Visio2019.txt
   - Download source [Visio 2019](https://officecdn.microsoft.com/db/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/media/en-us/VisioPro2019Retail.img)
   - Dùng KMS VL ALL AIO để kích hoạt: https://github.com/BsNgChiThanh/KMS_VL_ALL_AIO
   - Dùng Activate AIO Tools kích hoạt: https://github.com/BsNgChiThanh/ActivateAIOTools
@@ -106,14 +102,12 @@ Kích hoạt Office 2010, 2013, 2016, 2019, 2021, Office 365 Mondo, Office 365 E
 ## Project 2016 ##
   - https://github.com/BsNgChiThanh/Cai-Project2016-va-kich-hoat
   - Download [Project 2016](https://officecdn.microsoft.com/db/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/media/en-us/ProjectProRetail.img)
-  - Source code: https://github.com/BsNgChiThanh/Kich-hoat-Office/blob/KichHoatOffice/Project2016.txt
   - Dùng KMS VL ALL AIO để kích hoạt: https://github.com/BsNgChiThanh/KMS_VL_ALL_AIO
   - Dùng Activate AIO Tools kích hoạt: https://github.com/BsNgChiThanh/ActivateAIOTools
   - Dùng MAS TOOL để kích hoạt https://github.com/BsNgChiThanh/MAS-TOOL
 ## Visio 2016 ##
   - https://github.com/BsNgChiThanh/Cai-Visio2016-va-kich-hoat
   - Download [Visio 2016](https://officecdn.microsoft.com/db/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/media/en-us/VisioProRetail.img)
-  - Source code: https://github.com/BsNgChiThanh/Kich-hoat-Office/blob/KichHoatOffice/Visio2016.txt
   - Dùng KMS VL ALL AIO để kích hoạt: https://github.com/BsNgChiThanh/KMS_VL_ALL_AIO
   - Dùng Activate AIO Tools kích hoạt: https://github.com/BsNgChiThanh/ActivateAIOTools
   - Dùng MAS TOOL để kích hoạt https://github.com/BsNgChiThanh/MAS-TOOL
@@ -163,7 +157,7 @@ Kích hoạt Office 2010, 2013, 2016, 2019, 2021, Office 365 Mondo, Office 365 E
 - Dùng AIO Tools để chuyển
 - Bấm vào đây để tham khảo https://github.com/BsNgChiThanh/ActivateAIOTools
 - Hoặc dùng [office-C2R-to-VOL](https://1drv.ms/f/s!AmvuvqBBIcK6h0W30--tnP5aaVC-?e=z4i31c)
-- Dùng phần mềm exe để chuyển: [tại đây](https://bsthanh-my.sharepoint.com/:f:/g/personal/0914678254_bsthanh_onmicrosoft_com/EtmzwS4bMtNFh46PhbVt14IBmT2P6I2UapgUOYg3QLsFmw?e=LsBvZH) hoặc [tại đây](https://1drv.ms/f/s!AmvuvqBBIcK6hz92nqjhNBQoWRUX?e=BUY30a). Hoặc [bấm vào đây để download](https://github.com/BsNgChiThanh/Kich-hoat-Office/blob/KichHoatOffice/Office2021VolumeLicensePack_x64.exe) rồi làm theo chỉ đẫn bên dưới:
+- Dùng phần mềm exe để chuyển: [tại đây](https://1drv.ms/f/s!AmvuvqBBIcK6hz92nqjhNBQoWRUX?e=BUY30a). Hoặc [bấm vào đây để download](https://github.com/BsNgChiThanh/Kich-hoat-Office/blob/KichHoatOffice/Office2021VolumeLicensePack_x64.exe) rồi làm theo chỉ đẫn bên dưới:
 - ![image](https://github.com/BsNgChiThanh/Kich-hoat-Office/assets/82578024/10777a0b-2bc6-49fd-bcc9-6b0eafbdfe33)
 ## Covert Office 2021 Retail to VL Office ProPlus 2021 ##
 - Bấm nút **Wondows + R**
@@ -229,7 +223,7 @@ cscript ospp.vbs /act
 ## XÓA KEY OFFICE ##
 - Dùng AIO Tools để xóa
 - Bấm vào đây để tham khảo https://github.com/BsNgChiThanh/ActivateAIOTools
-- Xoá key Office bằng đoạn code bấm [vào đây](https://1drv.ms/t/s!AmvuvqBBIcK6hyWbyZ7ms3HiWj67?e=GbuoEk) hoặc bấm vào link sau để lấy đoạn coade   https://github.com/BsNgChiThanh/Kich-hoat-Office/blob/KichHoatOffice/X%C3%B3a%20key%20Office.txt
+- Xoá key Office bằng đoạn code bấm [vào đây](https://1drv.ms/t/s!AmvuvqBBIcK6hyWbyZ7ms3HiWj67?e=GbuoEk) 
 - **Hoàn thành Kích hoạt!**
 
 ## CÓ NHỮNG TRƯỜNG HỢP BỊ LỖI RẤT KHÓ CHỊU ##
