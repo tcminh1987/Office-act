@@ -4,12 +4,13 @@ Kích hoạt Office 2010, 2013, 2016, 2019, 2021, Office 365 Mondo, Office 365 E
 ![IMG_1674314482411_1674314628494](https://user-images.githubusercontent.com/82578024/231743414-b21c5a56-bd56-4cae-912e-244a9afd470f.jpg)
 
 ## Trang chủ của kích hoạt cmd [bấm vào đây](https://msguides.com/install-office-multilanguage) ##
-  - [Kích hoạt Office 365 Mondo](https://github.com/BsNgChiThanh/Kich-hoat-Office/blob/KichHoatOffice/Active%20Office%20365%20Mondo.txt)
-  - [Kích hoạt Office 2021](https://msguides.com/office-2021) dự phòng [source](https://github.com/BsNgChiThanh/Kich-hoat-Office/blob/KichHoatOffice/Active%20Office%202021.txt)
+  - [Kích hoạt Office 365 Mondo](https://raw.githubusercontent.com/BsNgChiThanh/Kich-hoat-Office/KichHoatOffice/ActiveOfficeMondo.cmd)
+  - [Kích hoạt Office 2021](https://msguides.com/office-2021) dự phòng [source](https://raw.githubusercontent.com/BsNgChiThanh/Kich-hoat-Office/KichHoatOffice/ActiveOffice2021.cmd)
   - [Kích hoạt Project / Visio (2016/2019/2021)](https://msguides.com/project-visio)
-  - [Kích hoạt Office 2019](https://msguides.com/office-2019) dự phòng [source](https://github.com/BsNgChiThanh/Kich-hoat-Office/blob/KichHoatOffice/Office%202019.txt)
-  - [Source code Office 2016](https://1drv.ms/t/s!AmvuvqBBIcK6hyj7t3BaxKynZcX3?e=K16xtK)
-  - [Kích hoạt Office 2010, 2013](https://msguides.com/office-2010-2013)
+  - [Kích hoạt Office 2019](https://msguides.com/office-2019) dự phòng [source](https://raw.githubusercontent.com/BsNgChiThanh/Kich-hoat-Office/KichHoatOffice/ActiveOffice2019.cmd)
+  - [Source code Office 2016](https://raw.githubusercontent.com/BsNgChiThanh/Kich-hoat-Office/KichHoatOffice/Office2016.cmd)
+  - [Kích hoạt Office 2013](https://raw.githubusercontent.com/BsNgChiThanh/Kich-hoat-Office/KichHoatOffice/OfficeProlus2013.cmd)
+  - [Kích hoạt Office 2010](https://raw.githubusercontent.com/BsNgChiThanh/Kich-hoat-Office/KichHoatOffice/OfficeProlus2010.cmd)
   
 ## Một số nguồn quan trọng ##
 - [Office Tool Plus](https://otp.landian.vip/en-us/download.html)
