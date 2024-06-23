@@ -5,13 +5,27 @@ Kích hoạt Office 2010, 2013, 2016, 2019, 2021, Office 365 Mondo, Office 365 E
 
 ## Trang chủ của kích hoạt cmd [bấm vào đây](https://msguides.com/install-office-multilanguage) ##
   - [Kích hoạt Office 365 Mondo](https://raw.githubusercontent.com/BsNgChiThanh/Kich-hoat-Office/KichHoatOffice/ActiveOfficeMondo.cmd)
-  - [Kích hoạt Office 2021](https://msguides.com/office-2021) dự phòng [source](https://raw.githubusercontent.com/BsNgChiThanh/Kich-hoat-Office/KichHoatOffice/ActiveOffice2021.cmd)
-  - [Kích hoạt Project / Visio (2016/2019/2021)](https://msguides.com/project-visio)
-  - [Kích hoạt Office 2019](https://msguides.com/office-2019) dự phòng [source](https://raw.githubusercontent.com/BsNgChiThanh/Kich-hoat-Office/KichHoatOffice/ActiveOffice2019.cmd)
-  - [Source code Office 2016](https://raw.githubusercontent.com/BsNgChiThanh/Kich-hoat-Office/KichHoatOffice/Office2016.cmd)
-  - [Kích hoạt Office 2013](https://raw.githubusercontent.com/BsNgChiThanh/Kich-hoat-Office/KichHoatOffice/OfficeProlus2013.cmd)
-  - [Kích hoạt Office 2010](https://raw.githubusercontent.com/BsNgChiThanh/Kich-hoat-Office/KichHoatOffice/OfficeProlus2010.cmd)
-  
+  - Kích hoạt office 2021:
+    - [Kích hoạt Office 2021](https://msguides.com/office-2021) dự phòng [source](https://raw.githubusercontent.com/BsNgChiThanh/Kich-hoat-Office/KichHoatOffice/ActiveOffice2021.cmd)
+    - [Project 2021](https://raw.githubusercontent.com/BsNgChiThanh/Kich-hoat-Office/KichHoatOffice/Project2021.cmd)
+    - [Visio 2021](https://raw.githubusercontent.com/BsNgChiThanh/Kich-hoat-Office/KichHoatOffice/Visio2021.cmd)
+    - [Kích hoạt Project / Visio (2016/2019/2021)](https://msguides.com/project-visio)
+  - Kích hoạt office 2019:
+    - [Kích hoạt Office 2019](https://msguides.com/office-2019) dự phòng [source](https://raw.githubusercontent.com/BsNgChiThanh/Kich-hoat-Office/KichHoatOffice/ActiveOffice2019.cmd)
+    - [Project 2019](https://raw.githubusercontent.com/BsNgChiThanh/Kich-hoat-Office/KichHoatOffice/Project2019.cmd)
+    - [Visio 2019](https://raw.githubusercontent.com/BsNgChiThanh/Kich-hoat-Office/KichHoatOffice/Visio2019.cmd)
+  - Kích hoạt office 2016:
+    - [Kích hoạt Office 2016](https://raw.githubusercontent.com/BsNgChiThanh/Kich-hoat-Office/KichHoatOffice/Office2016.cmd)
+    - [Project 2016](https://raw.githubusercontent.com/BsNgChiThanh/Kich-hoat-Office/KichHoatOffice/Project2016.cmd)
+    - [Visio 2016](https://raw.githubusercontent.com/BsNgChiThanh/Kich-hoat-Office/KichHoatOffice/Visio2016.cmd)
+  - Kích hoạt office 2013:
+    - [Kích hoạt Office 2013](https://raw.githubusercontent.com/BsNgChiThanh/Kich-hoat-Office/KichHoatOffice/OfficeProlus2013.cmd)
+    - [Project 2013](https://raw.githubusercontent.com/BsNgChiThanh/Kich-hoat-Office/KichHoatOffice/Project2013.cmd)
+    - [Visio 2013](https://raw.githubusercontent.com/BsNgChiThanh/Kich-hoat-Office/KichHoatOffice/Visio2013.cmd)
+  - Kích hoạt office 2010:
+    - [Kích hoạt Office 2010](https://raw.githubusercontent.com/BsNgChiThanh/Kich-hoat-Office/KichHoatOffice/OfficeProlus2010.cmd)
+    - [Project 2010](https://raw.githubusercontent.com/BsNgChiThanh/Kich-hoat-Office/KichHoatOffice/Project2010.cmd)
+    - [Visio 2010](https://raw.githubusercontent.com/BsNgChiThanh/Kich-hoat-Office/KichHoatOffice/Visio2010.cmd)
 ## Một số nguồn quan trọng ##
 - [Office Tool Plus](https://otp.landian.vip/en-us/download.html)
 - [Source nguồn Office](https://docs.google.com/spreadsheets/d/e/2PACX-1vRlK-vRwPJHDaANT81EjyG4m5ZnLXdKRYfS0eKXyCzGymEfUDmKHRhxvUbtWYTfVn7MJ3E2jk7v3cGi/pubhtml?gid=605361024&single=true). Password giải nén nếu có của nguồn này [bấm vào đây](https://docs.google.com/document/d/1nskNEcAVu1SbhSzdRfGQWwT3aYtKUzLN/edit?usp=drivesdk&ouid=108710666609351868901&rtpof=true&sd=true) hoặc [bấm vào đây](https://tb.rg-adguard.net/public.php) 
