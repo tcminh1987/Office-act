@@ -3,6 +3,8 @@ Kích hoạt Office 2010, 2013, 2016, 2019, 2021, Office 365 Mondo, Office 365 E
 
 ![IMG_1674314482411_1674314628494](https://user-images.githubusercontent.com/82578024/231743414-b21c5a56-bd56-4cae-912e-244a9afd470f.jpg)
 
+![image](https://github.com/BsNgChiThanh/Lich-phong-kham/assets/82578024/d575f08f-29b1-4848-83b0-fb5e88dcb50c)
+
 ## Trang chủ của kích hoạt cmd [bấm vào đây](https://msguides.com/install-office-multilanguage) ##
   - [Kích hoạt Office 365 Mondo](https://raw.githubusercontent.com/BsNgChiThanh/Kich-hoat-Office/KichHoatOffice/ActiveOfficeMondo.cmd)
   - Kích hoạt office 2021:
