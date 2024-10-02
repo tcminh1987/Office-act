@@ -6,7 +6,7 @@ Kích hoạt Office 2010, 2013, 2016, 2019, 2021, Office 365 Mondo, Office 365 E
 ![image](https://github.com/BsNgChiThanh/Lich-phong-kham/assets/82578024/d575f08f-29b1-4848-83b0-fb5e88dcb50c)
 
 ## Kích hoạt bằng key online hoặc key by phone: ##
-  - [Key online](https://github.com/BsNgChiThanh/ActiveWindowsOfficeOnline0
+  - [Key online](https://github.com/BsNgChiThanh/ActiveWindowsOfficeOnline)
   - [Key by phone](https://github.com/BsNgChiThanh/ActiveOfficeByPhone)
 
 ## Trang chủ của kích hoạt cmd [bấm vào đây](https://msguides.com/install-office-multilanguage) ##
